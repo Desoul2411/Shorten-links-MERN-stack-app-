@@ -1,0 +1,45 @@
+-npm install express mongoose
+- npm install -D nodemon concurrently
+- npm i config
+
+MongoDB
+login:Desoul2411
+password:321677
+
+! Mongo DB control panel -> Security -> Network Access -> +ADD IP ADDRESS -> ADD CURRENT IP ADDRESS
+
+Hash passwords:
+- npm i bcrypt
+
+Validation:
+- npm install express-validator	
+
+
+Authorization:
+- npm i jsonwebtoken
+
+
+package.json:
+"scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\"\"npm run client\""   // start front-end and back-end together
+  },
+
+- npm run dev   //to start front-end and back-end together!!! (launch from root (back-end) terminal - mern-app/)
+
+
+REACT
+- npm install materialize-css@next
+
+https://materializecss.com/ - get html wirerames from here
+
+
+
+in package.json:
+"proxy": "http://localhost:5000",   // in order to redirect our post requests to back-end (localhost:5000)
+
+
+Amazingly short non-sequential url-friendly unique id generator.
+- Amazingly short non-sequential url-friendly unique id generator.
