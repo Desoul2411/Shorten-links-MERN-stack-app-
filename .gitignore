@@ -6,6 +6,9 @@
 .pnp.js
 
 # testing
+.idea
+node_modules
+
 /coverage
 
 # production

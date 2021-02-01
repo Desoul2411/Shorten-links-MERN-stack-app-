@@ -3,8 +3,13 @@
 - npm i config
 
 MongoDB
+Account password:
 login:Desoul2411
-password:321677
+password:Megachips3211
+
+db password: 321677
+
+
 
 ! Mongo DB control panel -> Security -> Network Access -> +ADD IP ADDRESS -> ADD CURRENT IP ADDRESS
 
@@ -43,3 +48,11 @@ in package.json:
 
 Amazingly short non-sequential url-friendly unique id generator.
 - Amazingly short non-sequential url-friendly unique id generator.
+
+
+
+//to add environment variables
+npm i cross-env
+
+
+-run build - npm run client:build
